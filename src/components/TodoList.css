@@ -1,0 +1,33 @@
+.todo-container {
+  margin: 20px 30%;
+  padding: 20px 0;
+  background-color: rgb(164, 48, 5);
+}
+
+.todo-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: sandybrown;
+  height: 3vh;
+  margin: 5px 10%;
+  padding: 0px 10px;
+}
+
+.todo-item input {
+  margin-right: 10px;
+}
+
+.todo-item p {
+  font-size: 1rem;
+}
+
+#trash-logo {
+  position: absolute;
+  margin-right: 5px;
+  right: 0;
+  width: 25px;
+  height: 15px;
+}

@@ -1,0 +1,27 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+}
+
+.form-container input {
+  width: 60%;
+  height: 3vh;
+  padding-left: 10px;
+  background-color: rgba(36, 38, 40, 0.8);
+  color: sandybrown;
+  font-size: 1rem;
+}
+
+.form-container input::placeholder {
+  color: sandybrown;
+  font-size: 1rem;
+}
+
+.form-container button {
+  width: 50px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: sandybrown;
+}
